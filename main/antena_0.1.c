@@ -187,8 +187,8 @@ void app_main() {
   uint8_t angle = 0;
   ms5611_config_init();
   start_barometer_task();
-  // start_now_send_task();
-  // gps_init();
+  start_now_send_task();
+  gps_init();
 
   // while (true)
   // {
